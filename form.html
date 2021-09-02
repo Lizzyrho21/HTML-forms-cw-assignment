@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- regular CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Bookclub!</title>
+</head>
+<body>
+    <header id="header-title"><p class="h1">HTML form: Registration page</p></header>
+    <!-- create a big container for the two containers  -->
+    <div class="register-container">
+        <!-- container for our picture bg -->
+        <div class="picture-container">
+            <img class="minimalist" src="/minimalist.png" alt="minimalist picture" width="550px">
+        </div> 
+        <!-- container for our form  -->
+        <div class="form-container">
+           
+            <form id="FORM">
+                <p class="h3">Welcome to BookClub</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aut, cumque iusto harum omnis ipsa rerum nisi quas voluptate delectus cupiditate iure odit consequatur ipsum vel praesentium, corrupti sit id.</p>
+               
+                <div class="form-group">
+                    <!-- first name  -->
+                    <label for="FNAME">First Name</label>
+                    <input type="text" class="form-control" id="FNAME"  placeholder="Enter First Name">
+                    <!-- last name  -->
+                    <label for="LNAME">Last Name</label>
+                    <input id="LNAME" type="text" class="form-control"   placeholder="Enter Last Name">
+                    <!-- email address  -->
+                    <label for="EMAIL">Email Address</label>
+                    <input type="email" class="form-control" id="EMAIL"  placeholder="Enter Email Address">
+                    <!-- password  -->
+                    <label for="PASSWORD">Password</label>
+                    <input type="password" class="form-control" id="PASSWORD"  placeholder="Enter Password">
+                    <!-- confirm password  -->
+                    <label for="CONFIRM">Confirm Password</label>
+                    <input type="password" class="form-control" id="CONFIRM"  placeholder="Confirm Password">
+                    
+                    <input id="CHECKBOX" type="checkbox" class="form-check-input" >
+                    <label class="form-check-label" for="CHECKBOX">Yes, I understand and agree to BookClub's <a href="#">Terms of Service,</a> including the <a href="#">User Agreement</a> and <a href="#">Privacy Policy</a></label>
+                    <!-- <input id="CHECKBOX" class="check" type="checkbox"  name="terms" >
+                    <label for="CHECKBOX"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores quisquam laborum represt</label><br> -->
+
+                    <input id="SUBMIT" type="submit" class="btn btn-primary mb-2">
+            </form>
+       
+    </div>
+     
+       
+    <ul id="OUTPUT"></ul>
+
+    </div>
+    <footer id="footer"><p class="h3">September 01, 2021</p></footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
